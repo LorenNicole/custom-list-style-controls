@@ -1,0 +1,13 @@
+node_modules/
+.DS_Store
+npm-debug.log*
+.vscode/
+.idea/
+
+# WordPress/local dev clutter
+*.log
+*.sql
+*.zip
+
+# Keep build files committed for easy plugin review/install.
+!build/
