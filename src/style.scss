@@ -1,0 +1,69 @@
+.wp-block-list.has-clsc-list-style-disc {
+	list-style-type: disc;
+}
+
+.wp-block-list.has-clsc-list-style-circle {
+	list-style-type: circle;
+}
+
+.wp-block-list.has-clsc-list-style-square {
+	list-style-type: square;
+}
+
+.wp-block-list.has-clsc-list-style-decimal {
+	list-style-type: decimal;
+}
+
+.wp-block-list.has-clsc-list-style-decimal-leading-zero {
+	list-style-type: decimal-leading-zero;
+}
+
+.wp-block-list.has-clsc-list-style-lower-alpha {
+	list-style-type: lower-alpha;
+}
+
+.wp-block-list.has-clsc-list-style-upper-alpha {
+	list-style-type: upper-alpha;
+}
+
+.wp-block-list.has-clsc-list-style-lower-roman {
+	list-style-type: lower-roman;
+}
+
+.wp-block-list.has-clsc-list-style-upper-roman {
+	list-style-type: upper-roman;
+}
+
+.wp-block-list.has-clsc-list-style-none {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+/**
+ * Custom image bullet.
+ *
+ * Uses pseudo-elements instead of list-style-image so the bullet can be
+ * sized and aligned consistently.
+ */
+.wp-block-list.has-clsc-list-style-custom-image {
+	list-style: none;
+	padding-left: 0;
+}
+
+.wp-block-list.has-clsc-list-style-custom-image > li {
+	position: relative;
+	padding-left: calc(var(--clsc-bullet-size, 18px) + 0.6em);
+}
+
+.wp-block-list.has-clsc-list-style-custom-image > li::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0.35em;
+	width: var(--clsc-bullet-size, 18px);
+	height: var(--clsc-bullet-size, 18px);
+	background-image: var(--clsc-bullet-image);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
