@@ -1,13 +1,13 @@
 <?php
 /**
  * Plugin Name:       Custom List Style Controls
- * Plugin URI:        https://github.com/lorennicole316/custom-list-style-controls
+ * Plugin URI:        https://github.com/lorennicole/custom-list-style-controls
  * Description:       Adds custom bullet and list-style controls to the native WordPress List block.
  * Version:           1.0.0
  * Requires at least: 6.5
  * Requires PHP:      7.4
  * Author:            Loren Nicole Simons
- * Author URI:        https://github.com/lorennicole316
+ * Author URI:        https://github.com/lorennicole
  * License:           GPLv2 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       custom-list-style-controls
